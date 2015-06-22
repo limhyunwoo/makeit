@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+div.seat {
+	float: left margin-left: 124px;
+}
+div.seat form{
+	margin-right: -9px;
+}
+div.seatSelect {
+	margin-left: 280px;
+	margin-right: 280px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+div.seatSelect fieldset {
+	width: 250px;
+	margin-left: 5px;
+	text-align: left;
+}
+div.seatSelect fieldset legend{
+	text-align: center;
+}
+.deleteSelect {
+	width: 200px;
+	margin-left: 330px;
+	margin-top: -76px;
+	text-align: left;
+	padding: 1px;
+}
+fieldset.deleteSelect legend{
+	text-align: center;
+}
+table.valueView{
+	width: 150px;
+	margin-left:730px;
+	margin-top: -70px;
+	border: 1px solid black;
+}
+.seatView{
+	width: 700px;
+	height: 200px;
+	margin: auto;
+	border: 1px solid black;
+}
+.seatView form{
+	margin-bottom: 100px;
+    margin-top: 50px;
+}

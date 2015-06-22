@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+@CHARSET "UTF-8";
+@IMPORT url("common.css"); /*ctrl + 클릭으로 제대로 연결되었는지 알수가있다.*/
+img{border:none}
+
+
+/* #wrap{    top -> wrap
+	width: 99%;
+	text-align:  left; 글자 정렬 : 안쪽
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-image: url(""); ff  ,,../../images/Tulips.jpg
+    background-repeat: repeat-y;
+    
+    만약 배경이미지가 작으면 이미지 반복으로 채우겠다.
+   
+   
+   이거 먹게할러면
+    min-height: 750px;
+    
+    모니터에 따라 신축성 있게 헤더가 축소되지만
+    최소한 750px 은 유지하고
+    그 이하가 되면 이미지가 잘리도록 하겠다.
+    
+   
+    	
+} */
+.top{
+	 height: 170px;
+	 margin: 0px 50px 0 1px;
+	 padding: 0;
+	 background-color: #e6fc9a;	
+}
+.login{
+	position:inherit;
+	right:10%;
+	font-size: 30px;
+	
+}
+
+.topMenu{
+	margin: 0px 195px 1px 157px ;
+	position: inherit; 
+	top:60px;
+	/* background-color: #ffca71; */
+	
+	
+}
+
+.table{
+	/* border-style: solid; */
+	margin: 26px 0px 0px 43px;
+	font-size: 19px;
+	text-align: center;
+   
+	 
+	
+	
+}
+
+
+#tr{
+	/* border: 1px solid black ; */
+	background-color: #feeecf; 
+	font-size: 12;
+
+}
+#td1{
+	border: 1px solid #004080 ;
+	width: 145px;
+	height: 45px;
+	
+}
+#td2{
+	border: 1px solid #00ff40 ;
+    width: 145px;
+	/* height: 20px; */
+
+}
+#td3{
+	border: 1px solid #804040 ;
+    width: 145px;
+	
+
+}
+#td4{
+	border: 1px solid #c0c0c0 ;
+    width: 145px;
+	
+
+}
+#td5{
+	border: 1px solid black ;
+    width: 145px;
+	
+
+}
+
+.clear{
+	  clear: both;
+	  
+}

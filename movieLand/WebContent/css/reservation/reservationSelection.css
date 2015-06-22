@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+form{}
+.selectionView {
+	margin: auto;
+	width: 200px;
+	height: 150px;
+	border: 1px solid gray;
+}
+.selectionView tr {}
+.selectionView tr td{
+	text-align: left;
+}

@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css");
+
+/* #wrap{    top -> wrap
+	width: 99%; 
+	text-align:  left; 글자 정렬 : 안쪽
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-image: url(""); ff  ,,../../images/Tulips.jpg
+    background-repeat: repeat-y;
+    
+    만약 배경이미지가 작으면 이미지 반복으로 채우겠다.
+   
+   
+   이거 먹게할러면
+    min-height: 750px;
+    
+    모니터에 따라 신축성 있게 헤더가 축소되지만
+    최소한 750px 은 유지하고
+    그 이하가 되면 이미지가 잘리도록 하겠다.
+    
+   
+    	
+} */
+/* .body1{
+	
+	width: 100%;
+    height: 1024px;   위드 와 하이트
+    position: relative;
+    top:
+    z-index: 20;       3차원을 나타내는 z를 이용해서 어떤 경우라도 헤더가 덮이는 것을 방지
+    overflow: hidden;       위드 , 하이트 값에 넘치는 이미지를 넣는 경우라도 잘리게 끔 처리
+    background-color: #fcc
+	
+	
+} */
+/* #bodytab{
+	  margin: 1px 1px 1px 1px ;
+	  
+	  position :relative;
+	  top: 50px; left: 100px; right: 100px; bottom: 100px;
+	  
+	
+	
+} */
+
+.bodydiv{
+	height: 740px;
+	
+	
+}
+
+.bodydiv.tab1 tr {
+	border-bottom-color: black;
+}
+.tab1 tr td{
+     background-color: silver;
+     border-right-style: solid;
+     border-right-color: black;
+     height: 40px;
+     width: 189px;
+     margin-top: 10px;
+     
+}
+.tab1{
+	position :relative;
+	top:50px;
+	left: 209px;
+	margin:0 100px 0 100px; 
+	
+	 border-style: groove;
+	 border-color: lime;
+	 width: 800px;
+	 height: 350px;
+	 /* border-collapse: 3; */
+	 font-size: 30px;	
+}
+
+.tab2{
+	
+	position :relative;
+	left: 209px;
+	top:100px ;
+	margin:0 100px 0 100px; 
+	
+	
+	border-style: groove;
+	border-color: fuchsia;
+	
+	width: 800px;
+	height: 200px;
+	
+}
+.tab2.tab2tr1.tab2td1{
+    text-align: center;
+	
+}
+
+.tab3{
+	position :relative;
+	left: 209px;
+	top: 100px;
+	margin:0 100px 0 100px; 
+	width: 800px;
+	height: 200px;
+    border-style: groove;
+	border-color: olive;
+
+
+}
+
+
+#article{
+	  width : 50%;
+	  min-height : 50%;
+	  position: relative ;
+	  z-index : 10;
+	  margin : -50px 0;
+	  background-color: #ff6;
+	    
+      }
+
+.content{
+	    padding-top: 50px;
+	    
+	     
+       
+       
+       }

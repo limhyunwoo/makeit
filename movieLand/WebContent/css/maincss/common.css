@@ -1,0 +1,354 @@
+@CHARSET "UTF-8";
+@IMPORT url(reset.css);
+header {
+    width: 100%;
+    height: 200px;   /* 위드 와 하이트 */
+    position: relative;
+    z-index: 20;       /* 3차원을 나타내는 z를 이용해서 어떤 경우라도 헤더가 덮이는 것을 방지 */
+    overflow: hidden;      /*  위드 , 하이트 값에 넘치는 이미지를 넣는 경우라도 잘리게 끔 처리 */
+    background-color: #fdfbca;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    /* background-color: #CCF */ /*바꿧엇다..*/
+}
+/*
+nav ul {
+    list-style:none;
+    float:right;
+}
+ 
+nav ul li {
+    float:left;
+    margin:0 20px;
+}
+*/
+/*----------------------------------------------------------  */
+
+
+
+.center { position:absolute; top:130px; left:40%; width:400px; height:400px; overflow:hidden;}
+
+.login_form {
+	clear:both
+}
+.input_row {
+	position:relative;border:solid 1px #dadada;padding:10px 35px 10px 15px;margin:0 0 10px;background:#fff; width:300px; height:29px;  
+}
+.input_box {
+	display:block;overflow:hidden; 
+}
+.lbl {
+	position:absolute;top:16px;left:15px;z-index:8;font-size:15px;color:#bd0000;line-height:16px
+}
+.int {
+	position:relative;width:100%;padding:7px 0 6px;height:16px;z-index:9;border:none;background:#fff;font-size:15px;color:#000;line-height:16px;-webkit-appearance:none
+}
+html {
+	margin: 0px; padding: 0px; height: 100%; color: rgb(102, 102, 102); font-family: "나눔고딕","NanumGothicRegular",Dotum,Gulim,Helvetica,"Apple SD Gothic Neo",AppleGothic,Sans-serif,Arial; font-size: 12px;
+}
+body {
+	margin: 0px; padding: 0px; height: 100%; color: rgb(102, 102, 102); font-family: "나눔고딕","NanumGothicRegular",Dotum,Gulim,Helvetica,"Apple SD Gothic Neo",AppleGothic,Sans-serif,Arial; font-size: 12px; background-color: rgb(249, 249, 249);
+}
+div {
+	margin: 0px; padding: 0px; position: relative;
+}
+
+input[type=checkbox] {
+	
+}
+th {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+td {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+input {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+textarea {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+select {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+button {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+div table {
+	border: 1px; currentColor; border-image: none; border-collapse: collapse; border-spacing: 0; width: 1000px
+}
+ol {
+	list-style: none;
+}
+/* ul {
+	list-style: none;
+} */
+li {
+	list-style: none;
+}
+h1 {
+	font-size: 100%; font-weight: normal;
+}
+h2 {
+	font-size: 100%; font-weight: normal;
+}
+h3 {
+	font-size: 100%; font-weight: normal;
+}
+h4 {
+	font-size: 100%; font-weight: normal;
+}
+h5 {
+	font-size: 100%; font-weight: normal;
+}
+h6 {
+	font-size: 100%; font-weight: normal;
+}
+hr {
+	clear: both; display: none;
+}
+
+
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+legend {
+	margin: 0px; padding: 0px; line-height: 0; visibility: hidden;
+}
+#wrapper {
+	margin: 0px; padding: 0px; width: 100%;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#header #login a {
+	color: rgb(186, 186, 186); font-weight: 800;
+}
+
+.page-type3 {
+	margin-top: 60px;
+}
+.private-info{position:relative;}
+.page-type3 > h2 {
+	color: rgb(136, 136, 136); letter-spacing: -1px; font-family: "NanumGothicBold"; font-size: 36px; margin-bottom: 28px; text-align: center;
+}
+.page-type3 > h2 > p {
+	font-family: "NanumGothicBold"; font-size: 17px; margin-bottom: 9px; text-align: center;
+}
+.page-type3 > h2 > span {
+	color: rgb(51, 51, 51); text-align: center;
+}
+.radio-common {margin-left:12px;margin-right:5px;position:relative;top:2px;}
+.c91500000 div.input-box dl {margin:15px 0;}
+
+
+div.cirtifi-box {width:1050px;margin:0 auto;}
+.private-info > .focus-info1.have_table {height:220px;}
+.margin-top5 {
+	margin-top: 5px;
+}
+.margin-top10 {
+	margin-top: 10px;
+}
+.margin-top15 {
+	margin-top: 15px;
+}
+.margin-top40 {
+	margin-top: 40px;
+}
+.margin-top45 {
+	margin-top: 45px;
+}
+.margin-top50 {
+	margin-top: 50px;
+}
+.margin-bottom10 {
+	margin-bottom: 10px;
+}
+.margin-bottom50 {
+	margin-bottom: 50px;
+}
+div.center-btn{margin-top:38px;}
+
+div.input-section {
+	width:950px;margin:0 auto; font-family: "나눔고딕","NanumGothicRegular",Dotum,Gulim,Helvetica,"Apple SD Gothic Neo",AppleGothic,Sans-serif,Arial; font-size: 12px; text-align:left}
+
+.clear_both {
+	clear: both;
+}
+.line-ccc {
+	width: 100%; height: 1px; background-color: rgb(204, 204, 204);
+}
+.line-e2e2e2 {
+	width: 100%; height: 1px; background-color: rgb(226, 226, 226);
+}
+div.input-box {
+	margin: 0px auto;
+}
+div.input-box dt {
+	width: 120px; color: rgb(32, 32, 32); font-size: 13px; font-weight: 600; margin-top: 7px; float: left;
+}
+.c91500000 div.input-box .dt-margin-top1 {margin-top:1px;} 
+.c91500000 div.input-box .dt-valign-top {margin-top:2px;} 
+.c91500000 h4 {text-align:left;font-size:17px;font-weight:600;float:left;width:100px;}
+.c91500000 div.input-box dd {margin-left:140px;padding:5px 0;}
+.c91500000 div.input-box dd p {line-height:1.5em;}
+
+div.input-box {width:470px;margin:0 auto;}
+div.input-box dt {float:left;width:110px;font-size:13px;color:#202020;font-weight:600;margin-top:8px;}
+div.private-info, div.service-policy {border:1px solid #ccc;padding:20px 30px; height:180px;overflow: auto;line-height:1.5em;background:#fff;}
+
+.table_st1 thead {
+	background: rgb(229, 229, 229); color: rgb(51, 51, 51);
+}
+.table_st1 th {
+	padding: 10px 0px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51);
+}
+.table_st1 tbody tr {
+	border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.table_st1 tbody td {
+	padding: 10px;
+}
+.table_st1 th.center {
+	text-align: center;
+}
+
+.button {
+	text-align: center; vertical-align: middle; display: inline-block; -ms-zoom: 1;
+}
+.w85.button {
+	width: 83px;
+}
+.w100.button {
+	width: 98px;
+}
+.h30.button {
+	height: 28px; text-align: center; line-height: 28px; font-size: 13px;
+}
+.gray.button {
+	border: 1px solid rgb(102, 102, 102); border-image: none; color: rgb(255, 255, 255); background-color: rgb(102, 102, 102);
+}
+.white.button {
+	border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+
+ div.right{
+ text-align: right;
+ }
+
+ div.right > form > div.right-sub > #link > ul > li > a {
+	color: #525252196196196; font-size: 12px; font-weight: bold; text-align: right
+}
+ div.right > form > div.right-sub > #link > ul > li {
+	margin-right: 7px; display: inline-block; -ms-zoom: 1;
+}
+ div.right > form > div.right-sub > #link {
+	margin-top: 4px; display: inline-block; -ms-zoom: 1;
+}
+ div.right > form > div.right-sub > #login > dl.logout > dd > div.input-wrapper {
+	border-style: none none solid; border-bottom-color: rgb(68, 68, 68); border-bottom-width: 1px;
+}
+ div.right > form > div.right-sub > #login input {
+	background: none; border: currentColor; border-image: none;
+}
+ div.right > form > div.right-sub > #login input[type=text] {
+	width: 55px; height: 15px; line-height: 15px; margin-left: 5px;
+}
+ div.right > form > div.right-sub > #login input[type=password] {
+	width: 49px; height: 13px; line-height: 13px; margin-left: 5px;
+}
+ div.right > form > div.right-sub {
+	color: #525252196196196; margin-top: 24px; margin-right: 70px; vertical-align: top; display: inline-block; -ms-zoom: 1; 
+}
+ div.right > form > div.right-sub > #login {
+	top: 1px; margin-right: 8px; display: inline-block; position: relative; -ms-zoom: 1; font-style: inherit;
+	
+}
+ div.right > form > div.right-sub > .loggedin#login {
+	top: 0px;
+}
+ div.right > form > div.right-sub > #login > a + a {
+	margin-left: 0px;
+}
+ div.right > form > div.right-sub > #login > dl.logout {
+	margin-right: 7px; position: relative; 
+}
+ div.right > form > div.right-sub > #login > dl.logout {
+	display: inline-block; -ms-zoom: 1;
+}
+ div.right > form > div.right-sub > #login > dl.logout > dt {
+	display: inline-block; -ms-zoom: 1;
+}
+ div.right > form > div.right-sub > #login > dl.logout > dd {
+	display: inline-block; -ms-zoom: 1;
+}
+ div.right > form > div.right-sub > #login > dl.logout dt {
+	font-size: 11px; 
+}
+ div.right > form > div.right-sub > #login > dl.logout > dt > label.user-id {
+	color: #525252196196196; font-style: inherit; display: inline-block; -ms-zoom: 1; font-weight: bold;
+}
+ div.right > form > div.right-sub > #login > dl.logout > dt > label.user-pw {
+	color: #525252196196196; font-style: inherit; display: inline-block; -ms-zoom: 1; font-weight: bold;
+}
+ div.right > form > div.right-sub > #login > dl.logout > dd.user-id {
+	margin-right: -3px;
+}
+ div.right > form > div.right-sub > #login > a.img-logout {
+	vertical-align: text-bottom; font-weight: bold;
+}
+
+ #logo {
+	margin-left: 10px; display: inline-block; -ms-zoom: 1;
+}
+ #gnb {
+	left: 130px; top: 28px; vertical-align: middle; display: block; position: absolute; -ms-zoom: 1;
+}
+ #gnb > ul > li {
+	margin-right: 18px; float: left; display: block;
+}
+#header > .top-container .top > div.right {
+	top: 0px; right: 10px; display: block; position: absolute;
+}
+
+ #logo > h1 {
+	margin-top: 19px; margin-right: 31px; display: inline-block; -ms-zoom: 1;
+}
+ #gnb > ul > li > a {
+	height: 42px; text-align: center; color: rgb(196, 196, 196); font-size: 18px; font-weight: bold; display: block;
+}
+ #gnb > ul > li > a span {
+	padding: 2px 2px 4px;
+}
+
+#container > #content > #main-shortCut {
+	min-width: 990px;
+}
+#container > #content > #main-shortCut > .sub-main-section {
+	margin: 0px auto; width: 990px; min-height: 104px;
+}
+#container > #content > #main-shortCut > .main-section {
+	margin: 0px auto; width: 990px; min-height: 104px;
+}
+
+
+
+
+

@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+
+.di{
+	/* 배경이미지 설정 */
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  visibility: hidden\9;
+  height: 970px;
+	
+}
+.frame{
+	/* iframe 위치 설정 */
+	margin: 80px 0 0 0;
+}
+.pre{
+	/* 영화정보 택스트 설정 */
+	font-family: "돋음";
+	font-size: 13px;
+
+}
+
+.img{
+	/* 택스트 옆 영화포스트 설정 */
+  display: inline-block;
+  zoom: 1;
+  width: 214px;
+  float: left;
+}
+.back{
+	 opacity: 0.4;
+}
+.textback{
+	/* 택스트뒤 반투명배경 */
+  display: inline-block;
+  zoom: 1;
+  width: 708px;
+  float: right;
+  padding: 23px;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  color: #bab9b9;
+  background-image: url(https://www.primuscinema.com/Content/images/Common/bg.png);
+}
+
+.div1{
+	/* 택스트와 옆이미지 모아주는 설정 */
+	margin: 0 auto;
+	width: 990px;
+ 
+}
